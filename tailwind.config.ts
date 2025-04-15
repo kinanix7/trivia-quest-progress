@@ -19,6 +19,16 @@ export default {
 		},
 		extend: {
 			colors: {
+				quiz: {
+					primary: '#9b87f5',
+					secondary: '#7E69AB',
+					tertiary: '#6E59A5',
+					light: '#E5DEFF',
+					accent: '#8B5CF6',
+					incorrect: '#ea384c',
+					correct: '#10b981',
+					neutral: '#F1F0FB',
+				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
