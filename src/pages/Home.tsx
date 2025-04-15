@@ -114,7 +114,7 @@ const Home = () => {
                 <SelectValue placeholder="Select difficulty" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="">Any</SelectItem>
+                <SelectItem value="any">Any</SelectItem>
                 <SelectItem value="easy">Easy</SelectItem>
                 <SelectItem value="medium">Medium</SelectItem>
                 <SelectItem value="hard">Hard</SelectItem>
@@ -132,7 +132,7 @@ const Home = () => {
                 <SelectValue placeholder="Select question type" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="">Any</SelectItem>
+                <SelectItem value="any">Any</SelectItem>
                 <SelectItem value="multiple">Multiple Choice</SelectItem>
                 <SelectItem value="boolean">True/False</SelectItem>
               </SelectContent>

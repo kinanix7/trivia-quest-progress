@@ -34,5 +34,5 @@ export interface QuizStats {
   score: number;
 }
 
-export type Difficulty = "easy" | "medium" | "hard" | "";
-export type QuestionType = "multiple" | "boolean" | "";
+export type Difficulty = "easy" | "medium" | "hard" | "any" | "";
+export type QuestionType = "multiple" | "boolean" | "any" | "";
